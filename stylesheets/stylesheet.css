@@ -64,7 +64,7 @@ h2 {
 
 .network a {
     position: relative;
-    display: inline-block;
+    display: block;
     color: #333;
     padding: 5px 20px;
     background: #ccc;
@@ -104,5 +104,10 @@ h2 {
 @media (max-width: 767px) {
     h2 {
         font-size: 5vw;
+        margin-top: 20px;
+    }
+
+    .network li {
+        display: block;
     }
 }
