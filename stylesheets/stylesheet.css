@@ -1,5 +1,13 @@
 * {
     box-sizing: border-box;
+}
+
+h1, 
+h2, 
+ul, 
+div, 
+main, 
+section {
     padding: 0;
     margin: 0;
 }
