@@ -93,13 +93,16 @@ h2 {
     will-change: transform;
 }
 
-.network a:hover {
-    color: #fff;
+@media (min-width: 1024px) {
+    .network a:hover {
+        color: #fff;
+    }
+
+    .network a:hover:before {
+        transform: translateY(0);
+    }
 }
 
-.network a:hover:before {
-    transform: translateY(0);
-}
 
 @media (max-width: 767px) {
     h2 {
