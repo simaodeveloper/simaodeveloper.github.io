@@ -68,6 +68,8 @@ h2 {
     color: #333;
     padding: 5px 20px;
     background: #ccc;
+    transition: color .3s ease-out;
+    will-change: color;
 }
 
 .network .text {
@@ -85,6 +87,12 @@ h2 {
     left: 0;
     height: 100%;
     background: #067294;
+    transition: background .3s ease-out;
+    will-change: background;
+}
+
+.network a:hover {
+    color: #fff;
 }
 
 .network a:hover:before {
